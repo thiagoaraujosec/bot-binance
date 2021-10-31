@@ -9,8 +9,8 @@ from binance.client import Client
 from binance.enums import *
 
 RSI_PERIOD = 14
-RSI_OVERBOUGHT = 70 #68
-RSI_OVERSOLD = 30 #32 # 70 y 30
+RSI_OVERBOUGHT = 70
+RSI_OVERSOLD = 30 
 TRADE_SYMBOL = "BTCUSDT"
 TRADE_QUANTITY = 0.0035 #dinero expresado en btc
 closes = []
